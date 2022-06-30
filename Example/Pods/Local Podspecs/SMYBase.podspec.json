@@ -1,0 +1,43 @@
+{
+  "name": "SMYBase",
+  "version": "0.1.0",
+  "summary": "A short description of SMYBase.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/fugui/SMYBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fugui": "fugui@smyfinancial.com"
+  },
+  "source": {
+    "git": "https://github.com/fugui/SMYBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SMYBase/Classes/**/*.{h,m,c,swift,pch,strings}",
+  "resource_bundles": {
+    "SMYBase": [
+      "SMYBase/{Assets,Classes}/**/*.{xcassets,png,gif,ttf,xib,bundle}"
+    ]
+  },
+  "public_header_files": "Pod/Classes/SMYBase.h",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "swift_versions": "5.0",
+  "prefix_header_file": "Classes/SMYBasePrefix.pch",
+  "exclude_files": "SMYBase/Classes/Third/Reachability/Reachability.m",
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "source_files": "SMYBase/Classes/Third/Reachability/Reachability.m",
+      "requires_arc": false
+    }
+  ],
+  "swift_version": "5.0"
+}

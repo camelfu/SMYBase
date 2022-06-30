@@ -1,0 +1,6 @@
+framework module SMYBase {
+  umbrella header "SMYBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

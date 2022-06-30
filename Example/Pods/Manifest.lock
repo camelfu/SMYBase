@@ -1,0 +1,16 @@
+PODS:
+  - SMYBase (0.1.0)
+
+DEPENDENCIES:
+  - SMYBase (from `../`)
+
+EXTERNAL SOURCES:
+  SMYBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMYBase: 0fc552a23a8f1fdaa83f84f9d55722f9eb0d526d
+
+PODFILE CHECKSUM: 9e2d6970496b206e03d360f2c0b0459333edbed1
+
+COCOAPODS: 1.11.3
