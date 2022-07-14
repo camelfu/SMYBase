@@ -7,6 +7,7 @@
 //
 
 #import "SMYViewController.h"
+#import "SMYBase/UIColor+Custom.h"
 
 @interface SMYViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor colorWithHex:0x12c963 alpha:1.0];
 }
 
 - (void)didReceiveMemoryWarning

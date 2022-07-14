@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of SMYBase.",
   "description": "Add long description of the pod here.",
-  "homepage": "https://github.com/fugui/SMYBase",
+  "homepage": "https://github.com/camelfu/SMYBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "fugui": "fugui@smyfinancial.com"
+    "camelfu": "camelfu@icloud.com"
   },
   "source": {
-    "git": "https://github.com/fugui/SMYBase.git",
+    "git": "https://github.com/camelfu/SMYBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -30,7 +30,10 @@
     "UIKit"
   ],
   "swift_versions": "5.0",
-  "prefix_header_file": "Classes/SMYBasePrefix.pch",
+  "prefix_header_file": "SMYBase/Classes/SMYBasePrefix.pch",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
   "exclude_files": "SMYBase/Classes/Third/Reachability/Reachability.m",
   "subspecs": [
     {

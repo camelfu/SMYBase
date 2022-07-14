@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMYBase'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SMYBase.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fugui/SMYBase'
+  s.homepage         = 'https://github.com/camelfu/SMYBase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fugui' => 'fugui@smyfinancial.com' }
-  s.source           = { :git => 'https://github.com/fugui/SMYBase.git', :tag => s.version.to_s }
+  s.author           = { 'camelfu' => 'camelfu@icloud.com' }
+  s.source           = { :git => 'https://github.com/camelfu/SMYBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -40,9 +40,11 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation','UIKit'
   s.swift_version = '5.0'
   
-  s.prefix_header_file = false
-  s.prefix_header_file = 'Classes/SMYBasePrefix.pch'
-  
+#  s.prefix_header_file = false
+#  s.prefix_header_file = 'SMYBase/Classes/SMYBasePrefix.pch'
+#  s.prefix_header_contents = 'UtilityMacro.h','UIColor+Custom.h'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+#  x86_64 armv7
   
   non_arc_files = 'SMYBase/Classes/Third/Reachability/Reachability.m'
   s.exclude_files = non_arc_files

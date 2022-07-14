@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04E7F0F26ED5759F2E5CA338 /* Pods_SMYBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4434FC6380BE4F12E8630F5A /* Pods_SMYBase_Tests.framework */; };
 		0E4F22FE23F93FEDBD572F53 /* Pods_SMYBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3904F51F7114D45738FC6E /* Pods_SMYBase_Example.framework */; };
+		15503CF8286F083F00380448 /* SMYBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15503CF7286F083F00380448 /* SMYBase.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181973128C57231D99C0CEB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15503CF7286F083F00380448 /* SMYBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMYBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181973128C57231D99C0CEB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2D3904F51F7114D45738FC6E /* Pods_SMYBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMYBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		381424765D64B7C2AE277773 /* Pods-SMYBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMYBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMYBase_Example/Pods-SMYBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4434FC6380BE4F12E8630F5A /* Pods_SMYBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMYBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +64,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78E02E132C33B9F260402CB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7A4C7301465DAD7391C53B8D /* SMYBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMYBase.podspec; path = ../SMYBase.podspec; sourceTree = "<group>"; };
+		78E02E132C33B9F260402CB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A4C7301465DAD7391C53B8D /* SMYBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMYBase.podspec; path = ../SMYBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87741411D1AADC9539A4D988 /* Pods-SMYBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMYBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMYBase_Tests/Pods-SMYBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4E460EB44B4851E04AC4778 /* Pods-SMYBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMYBase_Example.release.xcconfig"; path = "Target Support Files/Pods-SMYBase_Example/Pods-SMYBase_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				15503CF8286F083F00380448 /* SMYBase.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				0E4F22FE23F93FEDBD572F53 /* Pods_SMYBase_Example.framework in Frameworks */,
 			);
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15503CF7286F083F00380448 /* SMYBase.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +197,6 @@
 				59241BC40C8823CE1EE754CE /* Pods-SMYBase_Tests.debug.xcconfig */,
 				87741411D1AADC9539A4D988 /* Pods-SMYBase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fugui;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MZB8QZKY8C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,13 +501,26 @@
 			baseConfigurationReference = 381424765D64B7C2AE277773 /* Pods-SMYBase_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZB8QZKY8C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMYBase/SMYBase-Prefix.pch";
 				INFOPLIST_FILE = "SMYBase/SMYBase-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"SMYBase\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +530,26 @@
 			baseConfigurationReference = F4E460EB44B4851E04AC4778 /* Pods-SMYBase_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZB8QZKY8C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMYBase/SMYBase-Prefix.pch";
 				INFOPLIST_FILE = "SMYBase/SMYBase-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"SMYBase\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

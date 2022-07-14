@@ -1,5 +1,7 @@
 PODS:
-  - SMYBase (0.1.0)
+  - SMYBase (0.1.0):
+    - SMYBase/no-arc (= 0.1.0)
+  - SMYBase/no-arc (0.1.0)
 
 DEPENDENCIES:
   - SMYBase (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SMYBase: 0fc552a23a8f1fdaa83f84f9d55722f9eb0d526d
+  SMYBase: 7bd3a5e3f6f80791489ccb00960f6f3823dbd910
 
 PODFILE CHECKSUM: 9e2d6970496b206e03d360f2c0b0459333edbed1
 
