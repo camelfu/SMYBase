@@ -7,6 +7,7 @@
 //
 
 #import "SMYImageTool.h"
+#import "UtilityMacro.h"
 
 @implementation SMYImageTool
 

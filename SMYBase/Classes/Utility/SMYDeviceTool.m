@@ -16,6 +16,7 @@
 #import <mach/mach_host.h>
 #import <mach/task_info.h>
 #import <mach/task.h>
+#import "UtilityMacro.h"
 
 const char delayBlockKey;
 

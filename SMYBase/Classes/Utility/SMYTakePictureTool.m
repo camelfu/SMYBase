@@ -7,7 +7,7 @@
 //
 
 #import "SMYTakePictureTool.h"
-
+#import <UIKit/UIKit.h>
 @interface SMYTakePictureTool () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 @property (nonatomic, copy) void(^didFinishTakePictureHandler)(BOOL bCancelled, UIImage *image, NSDictionary *imageInfo);

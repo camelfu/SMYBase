@@ -7,6 +7,7 @@
 //
 
 #import "SMYPageControl.h"
+#import "UIColor+Custom.h"
 
 static CGFloat const SMYPageDotDistance = 9.0f;
 

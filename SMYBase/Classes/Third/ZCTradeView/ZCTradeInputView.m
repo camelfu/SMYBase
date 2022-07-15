@@ -16,6 +16,7 @@ typedef enum {
 
 #import "ZCTradeInputView.h"
 #import "NSString+Extension.h"
+#import "UIColor+Custom.h"
 
 @interface ZCTradeInputView ()
 /** 数字数组 */

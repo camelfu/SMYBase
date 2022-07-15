@@ -7,6 +7,7 @@
 //
 
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 void SmyExchangeClassInstanceMethod(Class cls, SEL originalSel, SEL newSel) {
     Method originalMethod = class_getInstanceMethod(cls, originalSel);
@@ -19,6 +20,7 @@ void SmyExchangeClassInstanceMethod(Class cls, SEL originalSel, SEL newSel) {
         method_exchangeImplementations(originalMethod, newMethod);
     }
 }
+
 
 @implementation UINavigationController (SMYStatusBarStyle)
 

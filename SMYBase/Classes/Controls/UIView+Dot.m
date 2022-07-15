@@ -9,6 +9,7 @@
 #import "UIView+Dot.h"
 #import <objc/runtime.h>
 #import <CoreText/CoreText.h>
+#import "UIColor+Custom.h"
 
 static const char * dotKey;
 #define UIVIEW_DOT_DEFAULT_TEXT_COLOR [UIColor whiteColor]

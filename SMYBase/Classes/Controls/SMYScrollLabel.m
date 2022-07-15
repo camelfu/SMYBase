@@ -7,6 +7,7 @@
 //
 
 #import "SMYScrollLabel.h"
+#import "UtilityMacro.h"
 
 @interface SMYScrollLabel()
  

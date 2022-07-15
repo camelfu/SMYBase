@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMYBase'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of SMYBase.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,17 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   
-  s.source_files = 'SMYBase/Classes/**/*.{h,m,c,swift,pch,strings}'
+#  s.source_files = 'SMYBase/Classes/**/*.{h,m,c,swift,pch,strings}'
+#  s.source_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'SMYBase/Classes/**/*'
+
+  
+#  s.resource_bundles = {
+#    'SMYBase' => ['SMYBase/{Assets,Classes}/**/*.{xcassets,png,gif,ttf,xib,bundle}']
+#  }
   
   s.resource_bundles = {
-    'SMYBase' => ['SMYBase/{Assets,Classes}/**/*.{xcassets,png,gif,ttf,xib,bundle}']
+    'SMYBase' => ['SMYBase/Assets/*']
   }
   
   s.public_header_files = 'Pod/Classes/SMYBase.h'
@@ -42,9 +49,9 @@ Pod::Spec.new do |s|
   
 #  s.prefix_header_file = false
 #  s.prefix_header_file = 'SMYBase/Classes/SMYBasePrefix.pch'
+#  s.prefix_header_contents = 'UtilityMacro.h','UIColor+Custom.h'
   
   s.compiler_flags = '-ObjC'
-#  s.prefix_header_contents = 'UtilityMacro.h','UIColor+Custom.h'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   non_arc_files = 'SMYBase/Classes/Third/Reachability/Reachability.m'
   s.exclude_files = non_arc_files

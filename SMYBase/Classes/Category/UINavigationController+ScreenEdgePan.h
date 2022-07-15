@@ -7,6 +7,7 @@
 //
 // 开启和禁止屏幕右滑返回功能
 
+#import <UIKit/UIKit.h>
 @interface UINavigationController (ScreenEdgePan)
 
 /** 是否能够屏幕左边缘右滑返回 */

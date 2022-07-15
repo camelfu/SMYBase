@@ -8,6 +8,8 @@
 
 #import "SMYPlateView.h"
 #import "SMYPlateInputView.h"
+#import "UtilityMacro.h"
+#import "UIColor+Custom.h"
 
 @interface SMYPlateView () 
 

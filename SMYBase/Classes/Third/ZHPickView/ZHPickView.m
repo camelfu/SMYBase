@@ -7,6 +7,8 @@
 //
 
 #import "ZHPickView.h"
+#import "UIColor+Custom.h"
+#import "UtilityMacro.h"
 
 #define kColorDefaultVI     [UIColor colorWithHex:0x12C963 alpha:1.0f]
 #define ZHToobarHeight  40

@@ -8,6 +8,7 @@
 
 #import "SMYPlateInputView.h"
 #import "SMYPlateSingleInputLabel.h"
+#import "UIColor+Custom.h"
 
 @interface SMYPlateInputView ()
 

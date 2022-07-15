@@ -7,6 +7,8 @@
 //
 
 #import "SMYSelectView.h"
+#import "UtilityMacro.h"
+#import "UIColor+Custom.h"
 
 static CGFloat kCellHeight = 45;
 

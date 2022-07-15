@@ -18,6 +18,8 @@
 #define dialShort 9
 
 #import "ZVScrollSlider.h"
+#import "UtilityMacro.h"
+#import "UIColor+Custom.h"
 
 #pragma mark - -------------------------------蛋疼的分割线--------------------------------
 

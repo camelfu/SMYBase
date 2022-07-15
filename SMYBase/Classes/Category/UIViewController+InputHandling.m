@@ -8,6 +8,8 @@
 
 #import "UIViewController+InputHandling.h"
 #import <objc/runtime.h>
+#import "UIColor+Custom.h"
+#import "UtilityMacro.h"
 
 const char textFieldKey;
 

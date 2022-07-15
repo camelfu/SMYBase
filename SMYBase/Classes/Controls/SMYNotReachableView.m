@@ -7,6 +7,8 @@
 //
 
 #import "SMYNotReachableView.h"
+#import "UIColor+Custom.h"
+#import "UtilityMacro.h"
 
 @interface SMYNotReachableView ()
 

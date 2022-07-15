@@ -7,6 +7,7 @@
 //
 
 #import "SMYDashBorderButton.h"
+#import "UIColor+Custom.h"
 
 @implementation SMYDashBorderButton
 

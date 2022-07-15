@@ -6,7 +6,7 @@
 //  Copyright © 2018 smyfinancial. All rights reserved.
 //
 // 从相册选择一张照片或者用摄像头拍摄
-
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 @interface SMYTakePictureTool : NSObject

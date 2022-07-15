@@ -11,6 +11,7 @@
 #import "SMYNotReachableView.h"
 #import "SMYImageTool.h"
 #import "SMYDeviceTool.h"
+#import "UtilityMacro.h"
 
 @interface SVWebViewController () <WKNavigationDelegate, WKUIDelegate>
 

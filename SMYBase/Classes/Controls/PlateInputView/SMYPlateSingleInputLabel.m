@@ -8,7 +8,8 @@
 
 #import "SMYPlateSingleInputLabel.h"
 #import "SMYBase/SMYImageTool.h"
-
+#import "UIColor+Custom.h"
+#import "UtilityMacro.h"
 @interface SMYPlateSingleInputLabel ()
 
 /** 英文数字键盘的确认按钮 */

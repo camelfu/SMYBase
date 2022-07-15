@@ -9,6 +9,7 @@
 #import "SMYIdKeyboardView.h"
 #import "UIColor+Custom.h"
 #import "UIResponder+SMY.h"
+#import "UtilityMacro.h"
 
 #define KeyboardNumericKeyWidth ([[UIScreen mainScreen] bounds].size.width) / 3.0
 #define KeyboardNumericKeyHeight 54

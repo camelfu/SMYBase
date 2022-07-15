@@ -19,6 +19,7 @@
 
 #import "WTReTextField.h"
 #import "WTReParser.h"
+#import "UIColor+Custom.h"
 
 @implementation WTReTextField
 
